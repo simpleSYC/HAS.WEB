@@ -1,5 +1,5 @@
 const ROLE = ["ADMIN", "EDITOR", "SPECTATOR", "ANALIZA"];
-const DefalkaFoto = "../SRC.HAS-SYC.system/MEDIA/HAS1000.png";
+const DefalkaFoto = "https://simplesyc.github.io/HAS.SRC/MEDIA/HAS1000.png";
 const MASINA_STATUS = {
   /// U SHER LOKACIJA i da se razmisle za kostumize
   1: { TexT: "OK", Boi: "green" },
