@@ -77,7 +77,7 @@ var signqqee = new Vue({
 function Prenasocuvac() {
   setTimeout(function () {
     window.name = window.location.toString();
-    window.open("../ADMIN.HAS-SYC.system/index.html", "_self");
+    window.open("https://simplesyc.github.io/HAS.ADMIN/", "_self");
   }, 500);
 }
 
