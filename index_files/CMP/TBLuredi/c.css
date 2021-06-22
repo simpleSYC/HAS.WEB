@@ -1,0 +1,200 @@
+#CLIENT {
+  display: none;
+}
+.TBL_imenca {
+  position: absolute;
+  bottom: 7px;
+  left: 29px;
+  display: table;
+  width: 95%;
+  font-size: 23px;
+}
+.A0 {
+  color: black;
+}
+.A1 {
+  margin-left: 14%;
+  position: relative;
+  margin-right: 2px;
+}
+.A2 {
+  margin-left: 6.8%;
+  right: -6.8%;
+  position: relative;
+  margin-right: -4px;
+}
+.B0 {
+  color: black;
+}
+.B1 {
+  margin-left: 14%;
+  position: relative;
+  margin-right: -2px;
+}
+.B2 {
+  margin-left: 6.8%;
+  right: -6.8%;
+  position: relative;
+  margin-right: -4px;
+}
+.C0 {
+  margin-right: -2px;
+}
+.C1 {
+  margin-left: 14%;
+  position: relative;
+  margin-right: -4px;
+}
+.C2 {
+  margin-left: 6.8%;
+  right: -6.8%;
+  position: relative;
+  margin-right: -4px;
+}
+
+.S_txt_0,
+.S_txt_1,
+.S_txt_2 {
+  position: relative;
+  width: 70%;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ured_select {
+  border-radius: 11px;
+  width: 100%;
+}
+
+.STS_0 {
+  position: absolute;
+  left: 25px;
+}
+.STS_1 {
+  float: left;
+  margin-left: 14%;
+  right: -12px;
+  position: relative;
+}
+.STS_2 {
+  float: left;
+  margin-left: 5.8%;
+  right: -5.8%;
+  position: relative;
+}
+
+.STATUS_SIGNAL {
+  transform: scale(3);
+  position: absolute;
+  right: 140px;
+  margin-top: -1px;
+}
+
+.SELECTED_URED_txt {
+  display: block;
+  float: right;
+}
+
+.URED_STNGS {
+  display: none;
+  background-color: beige;
+  position: relative;
+  height: 333px;
+  margin-top: -2px;
+  overflow: hidden;
+}
+
+.SLIDERS {
+  display: block ruby;
+  margin-left: -62px;
+}
+
+.SLD_STALAZA_S_0 {
+  margin-left: 0%;
+  width: 15px;
+  height: 250px;
+  position: absolute;
+  margin-top: 85px;
+}
+
+.SLD_STALAZA_S_1 {
+  margin-left: 13.5%;
+  width: 15px;
+  height: 250px;
+  position: absolute;
+  margin-top: 85px;
+}
+
+.SLD_STALAZA_S_2 {
+  margin-left: 27%;
+  width: 15px;
+  height: 250px;
+  position: absolute;
+  margin-top: 85px;
+}
+
+.SLIDER_0 {
+  transform: rotate(-90deg);
+}
+.SLIDER_1 {
+  transform: rotate(-90deg);
+}
+.SLIDER_2 {
+  transform: rotate(-90deg);
+}
+
+.SIMBOL_0,
+.SIMBOL_1,
+.SIMBOL_2 {
+  position: relative;
+  top: 85px;
+  right: -85px;
+  font-size: 25px;
+}
+
+.STYL_STATUS {
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  float: right;
+  margin-top: -5px;
+}
+
+.FOTO_URED {
+  border-radius: 15px;
+  margin-right: auto;
+  width: 179px;
+}
+
+.MomentalSTATUS {
+  font-size: 24px;
+}
+
+.UPD {
+  display: block ruby;
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.L_UPD {
+  color: black;
+}
+
+.Q_UPD {
+  right: 15px;
+  position: absolute;
+}
+
+.TBL {
+  padding: 12px;
+}
+.M_TZE {
+  color: black;
+}
+.M_MNT {
+  float: right;
+  margin-top: 12px;
+}

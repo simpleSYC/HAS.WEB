@@ -1,0 +1,223 @@
+body {
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+input,
+button {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.main-div,
+.loggedin-div {
+  width: 73%;
+  margin: 0px auto;
+}
+
+.main-div input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  /*  padding: 15px; */
+  outline: none;
+  width: 90%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  height: 40px;
+  margin-left: 5%;
+}
+
+.main-div input:focus {
+  border: 1px solid #777;
+}
+
+.main-div button,
+.loggedin-div button {
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div button:hover,
+.loggedin-div button:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+
+#WELCOM_FOTO {
+  display: block;
+  border-radius: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 73%;
+  max-width: 600px;
+}
+
+#LOG_TOGEL {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  text-align: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#Group_Code {
+  display: block ruby;
+  text-align: center;
+}
+#GROUP_SingUp,
+#COD_SingUp {
+  width: 33%;
+}
+
+#Contact_Suport,
+#PASS_RESET {
+  width: auto;
+  bottom: 12px;
+  position: absolute;
+  right: 0px;
+}
+
+#PASS_RESET {
+  left: 0px;
+}
+
+#RestniAdminPass,
+#CancelRSTprocedura {
+  width: auto;
+  margin: auto;
+  position: inherit;
+  display: grid;
+  float: left;
+}
+
+#CancelRSTprocedura {
+  float: right;
+  background: #c4572c;
+}
+
+/* ************** MODALO ****************** */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  padding-bottom: 80px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#RESET_EMAIKO,
+#INvAITKO_CODE {
+  width: 90%;
+  margin: auto;
+  display: table-caption;
+  text-align: center;
+}

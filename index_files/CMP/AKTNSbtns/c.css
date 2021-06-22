@@ -1,0 +1,21 @@
+#BTNS_ACTIONS{padding: 1%;
+    display: inline-grid;
+    width: 98%;
+    border-radius: 8px;
+    position: relative;
+    bottom: -100px;}
+
+#save_b{background-color: greenyellow;
+    display:none;
+    border-radius: 8px;
+    margin: auto;}
+    
+#logout_b{float: right;
+    margin-right: 0px;
+    border-radius: 8px;}
+    
+#refresh_b{margin: auto;
+    border-radius: 8px;}
+    
+#uredi{width: 100%;
+    display:none;}
